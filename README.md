@@ -1,5 +1,5 @@
-## You can now create Job-Based Blips easily! [an_jobBlips]
-___[Working for both ESX & QBCore]___
+## **[an_jobBlips] You can now create Job-Based Blips easily!**
+*[Working for both ESX & QBCore]*
 
 # You will find everything you need in `config.lua`
 > You can add as many blips with as many jobs as you like in the following way:
