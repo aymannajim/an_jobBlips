@@ -24,6 +24,7 @@ Citizen.CreateThread(function()
 		end
 		
 		PlayerData = ESX.GetPlayerData()
+		PlayerJob = PlayerData.job
 	elseif Config.Framework == 'QBCORE' then
 		QBCore = exports['qb-core']:GetCoreObject()
 	end
@@ -35,10 +36,12 @@ end)
 RegisterNetEvent('esx:playerLoaded')
 AddEventHandler('esx:playerLoaded', function(xPlayer)
 	PlayerData = xPlayer
+	PlayerJob = PlayerData.job
 end)
 
 RegisterNetEvent('esx:setJob')
 AddEventHandler('esx:setJob', function(job)
+	PlayerData.job = job
 	PlayerJob = job
 	for k,v in pairs(createdBlips) do
 		RemoveBlip(v)
@@ -61,7 +64,9 @@ end)
 ------
 
 
+
 function loadBlips()
+	print(getJob())
 	for k,v in pairs(Config.Blips) do
 		local canSee = false
 		if #v.AllowedJobs == 0 then
