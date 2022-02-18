@@ -2,7 +2,7 @@
 [ESX &amp; QBCore] Create Blips based on Jobs [FiveM]
 
 # You will find everything you need in `config.lua`
-# You can add as many blips with as many jobs as you like in the following way:
+> You can add as many blips with as many jobs as you like in the following way:
 
 ```lua
 Config.Blips = {
