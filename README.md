@@ -14,21 +14,21 @@ Config.Blips = {
 	},
 	[2] = {
 		Coords = { x = 0.0, y = 0.0, z = 0.0 }, -- Blip Coords
-		Blip = { name = 'Blip Name', sprite = 0, size = 0.65, color = 0 }, -- Blip Settings
-		AllowedJobs = { 'AllowedJob1', 'AllowedJob2' }, -- Leave Blank if you want everyone to see this blip except for DeniedJobs // Add as many as you want
-		DeniedJobs = { 'DeniedJob1', 'DeniedJob2' }, -- Leave Blank if you only want AllowedJobs to see this blip // Add as many as you want
+		Blip = { name = 'Blip Name', sprite = 0, size = 0.65, color = 0 }, 
+		AllowedJobs = { 'AllowedJob1', 'AllowedJob2' }, 
+		DeniedJobs = { 'DeniedJob1', 'DeniedJob2' }, 
 	},
 	[3] = {
 		Coords = { x = 0.0, y = 0.0, z = 0.0 }, -- Blip Coords
-		Blip = { name = 'Blip Name', sprite = 0, size = 0.65, color = 0 }, -- Blip Settings
-		AllowedJobs = { 'AllowedJob1', 'AllowedJob2' }, -- Leave Blank if you want everyone to see this blip except for DeniedJobs // Add as many as you want
-		DeniedJobs = { 'DeniedJob1', 'DeniedJob2' }, -- Leave Blank if you only want AllowedJobs to see this blip // Add as many as you want
+		Blip = { name = 'Blip Name', sprite = 0, size = 0.65, color = 0 }, 
+		AllowedJobs = { 'AllowedJob1', 'AllowedJob2' }, 
+		DeniedJobs = { 'DeniedJob1', 'DeniedJob2' },
 	},
 	[4] = {
 		Coords = { x = 0.0, y = 0.0, z = 0.0 }, -- Blip Coords
-		Blip = { name = 'Blip Name', sprite = 0, size = 0.65, color = 0 }, -- Blip Settings
-		AllowedJobs = { 'AllowedJob1', 'AllowedJob2' }, -- Leave Blank if you want everyone to see this blip except for DeniedJobs // Add as many as you want
-		DeniedJobs = { 'DeniedJob1', 'DeniedJob2' }, -- Leave Blank if you only want AllowedJobs to see this blip // Add as many as you want
+		Blip = { name = 'Blip Name', sprite = 0, size = 0.65, color = 0 }, 
+		AllowedJobs = { 'AllowedJob1', 'AllowedJob2' },
+		DeniedJobs = { 'DeniedJob1', 'DeniedJob2' }, 
 	},
 }
 ```
