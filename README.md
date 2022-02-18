@@ -2,6 +2,7 @@
 [ESX &amp; QBCore] Create Blips based on Jobs [FiveM]
 
 # You will find everything you need in `config.lua`
+# You can add as many blips with as many jobs as you like in the following way:
 
 ```lua
 Config.Blips = {
@@ -11,14 +12,23 @@ Config.Blips = {
 		AllowedJobs = {},
 		DeniedJobs = { 'police', 'sheriff' },
 	},
-	------ TEMPLATE ------
-	--[[ -- REMOVE THIS LINE
 	[2] = {
 		Coords = { x = 0.0, y = 0.0, z = 0.0 }, -- Blip Coords
 		Blip = { name = 'Blip Name', sprite = 0, size = 0.65, color = 0 }, -- Blip Settings
 		AllowedJobs = { 'AllowedJob1', 'AllowedJob2' }, -- Leave Blank if you want everyone to see this blip except for DeniedJobs // Add as many as you want
 		DeniedJobs = { 'DeniedJob1', 'DeniedJob2' }, -- Leave Blank if you only want AllowedJobs to see this blip // Add as many as you want
 	},
-	]] -- REMOVE THIS LINE
+	[3] = {
+		Coords = { x = 0.0, y = 0.0, z = 0.0 }, -- Blip Coords
+		Blip = { name = 'Blip Name', sprite = 0, size = 0.65, color = 0 }, -- Blip Settings
+		AllowedJobs = { 'AllowedJob1', 'AllowedJob2' }, -- Leave Blank if you want everyone to see this blip except for DeniedJobs // Add as many as you want
+		DeniedJobs = { 'DeniedJob1', 'DeniedJob2' }, -- Leave Blank if you only want AllowedJobs to see this blip // Add as many as you want
+	},
+	[4] = {
+		Coords = { x = 0.0, y = 0.0, z = 0.0 }, -- Blip Coords
+		Blip = { name = 'Blip Name', sprite = 0, size = 0.65, color = 0 }, -- Blip Settings
+		AllowedJobs = { 'AllowedJob1', 'AllowedJob2' }, -- Leave Blank if you want everyone to see this blip except for DeniedJobs // Add as many as you want
+		DeniedJobs = { 'DeniedJob1', 'DeniedJob2' }, -- Leave Blank if you only want AllowedJobs to see this blip // Add as many as you want
+	},
 }
 ```
