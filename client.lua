@@ -28,8 +28,6 @@ Citizen.CreateThread(function()
 	elseif Config.Framework == 'QBCORE' then
 		QBCore = exports['qb-core']:GetCoreObject()
 	end
-	Wait(2000)
-	loadBlips()
 end)
 
 ------ This is for ESX
@@ -37,6 +35,8 @@ RegisterNetEvent('esx:playerLoaded')
 AddEventHandler('esx:playerLoaded', function(xPlayer)
 	PlayerData = xPlayer
 	PlayerJob = PlayerData.job
+	Wait(2000)
+	loadBlips()
 end)
 
 RegisterNetEvent('esx:setJob')
@@ -52,6 +52,14 @@ end)
 ------
 
 ------ This is for QBCore
+RegisterNetEvent('QBCore:Client:OnPlayerLoaded')
+AddEventHandler('QBCore:Client:OnPlayerLoaded', function()
+	local Player = QBCore.Functions.GetPlayerData()
+	PlayerJob = Player.job
+	Wait(500)
+	loadBlips()
+end)
+
 RegisterNetEvent('QBCore:Client:OnJobUpdate')
 AddEventHandler('QBCore:Client:OnJobUpdate', function(JobInfo)
 	PlayerJob = JobInfo
