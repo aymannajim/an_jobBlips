@@ -4,8 +4,7 @@
 -- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ----- Made By https://a-n.tebex.io/
------ For Support, Join my Discord: https://discord.gg/f2Nbv9Ebf5
------ For custom services or help, check my Fiverr: https://www.fiverr.com/aymannajim
+----- For Support, Join my Discord: https://discord.gg/KxdPzC5EeJ
 
 local PlayerData
 local PlayerJob
@@ -119,5 +118,4 @@ function getJob()
 end
 
 ----- Made By https://a-n.tebex.io/
------ For Support, Join my Discord: https://discord.gg/f2Nbv9Ebf5
------ For custom services or help, check my Fiverr: https://www.fiverr.com/aymannajim
+----- For Support, Join my Discord: https://discord.gg/KxdPzC5EeJ
